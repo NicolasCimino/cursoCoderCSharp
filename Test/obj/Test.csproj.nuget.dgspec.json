@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Test\\Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\nico_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nico_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\nico_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nico_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\nico_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nico_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Test\\Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Test\\Test.csproj",
+        "projectName": "Test",
+        "projectPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\nico_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nico_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\nico_\\OneDrive\\Desktop\\cSharp\\CursoCoder\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
